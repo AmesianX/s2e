@@ -89,7 +89,7 @@ generate_driver()
     echo "The S2E driver file $DRIVER_OUTPUT has been updated. Please rebuild the solution."
 }
 
-download_patches
-extract_kernels
+# download_patches
+# extract_kernels
 get_pdbs
 generate_driver
